@@ -1,0 +1,11 @@
+.summary-cart-summary {
+    margin: .75rem 0;
+    border-bottom: 1px solid var(--color-bg-dark);
+
+    p.cart-count {
+        padding: 0 0 .5rem;
+        font-size: .85rem;
+        text-align: right;
+        border-bottom: 1px solid var(--color-bg-dark);
+    }
+}

@@ -1,0 +1,67 @@
+.user-info-bar {
+    padding: .5rem;
+    background-color: var(--color-success-light);
+    text-align: center;
+    animation-duration: 300ms;
+    animation-name: slideIn;
+
+    strong { color:var(--color-danger); }
+}
+
+@keyframes slideIn {
+    from { margin-top: -35px; }
+    to { margin-top: 0; }
+}
+
+.top-bar {
+    height: 3rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    a {
+        color: var(--color-grey-light);
+
+        &:hover {
+            color: var(--color-white);
+        }
+    }
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background-color: var(--color-white);
+    color: var(--color-black);
+
+    h1 {
+        font: {
+            size: calc(2rem + 1vw);
+            weight: var(--font-medium);
+        }
+
+        span {
+            font-weight: var(--font-bold);
+        }
+    }
+}
+
+.page-footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: var(--footer-height);
+    background-color: var(--color-white);
+
+    p { font-size: .85rem; }
+}

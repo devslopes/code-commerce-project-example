@@ -1,0 +1,27 @@
+  
+.confirmation-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: .25rem;
+    padding: 0;
+    list-style-type: none;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-grey-light);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: calc(.45rem + .25vw);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    li {
+        width: 25%;
+        padding: .5rem .75rem;
+        border-radius: 10px;
+
+        &.selected {
+            background-color: var(--color-grey-med);
+            color: var(--color-white);
+        }
+    }
+}

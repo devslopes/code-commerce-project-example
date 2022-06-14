@@ -1,0 +1,38 @@
+.shipping-form {
+
+    label { font-weight: bold; }
+
+    .form-group {
+
+        &:nth-child(4) {
+            .form-control { width:calc(100% - 115px); }
+        }
+
+        &:nth-child(5) {
+            display: inline-block;
+            width: 200px;
+            
+            .form-control { width: 90px; }
+        }
+
+        &:nth-child(6) {
+            display: inline-block;
+            width: 150px;
+
+            label { width: 40px; }
+            .form-control { width: 90px; }
+        }
+
+        &:nth-child(7) {
+            display: inline-block;
+            width: 150px;
+
+            label { width: 40px; }
+            .form-control { width: 90px; }
+        }
+
+        &:nth-child(9) {
+            margin-bottom: 2rem;
+        }
+    }
+}

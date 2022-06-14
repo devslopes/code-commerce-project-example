@@ -1,0 +1,20 @@
+.shopping-cart-headers {
+    display: flex;
+    margin: .5rem 0 1rem;
+    padding: 0 .5rem .5rem;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: var(--default-border);
+
+    li:first-child { flex: 4; }
+    li:nth-child(2) { flex: 1.5; }
+    li:nth-child(3) { flex: 1.5; }
+    li:last-child { flex: 1; }
+}
+
+.cart-empty { text-align: center; }
+
+@media (max-width: 768px) {
+    .shopping-cart-headers { display: none; }
+}

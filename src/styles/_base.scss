@@ -1,0 +1,48 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: var(--base-font-size); scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--color-bg);
+    color: var(--font-color-primary);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--primary-link-color);
+    text-decoration: none;
+    transition: var(--default-transition);
+
+    &:hover {
+        color: var(--primary-link-hover);
+    }
+}
+
+ul.defaults-removed {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.page-wrapper {
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.content-wrapper {
+    padding-bottom: var(--footer-height);
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}

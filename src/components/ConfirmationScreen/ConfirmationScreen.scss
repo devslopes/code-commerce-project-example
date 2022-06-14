@@ -1,0 +1,20 @@
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    text-align: center;
+    color: var(--color-grey-light);
+
+    h3 {
+        margin: 0 0 1rem;
+        color: var(--color-grey-med);
+    }
+}
+
+.check-icon {
+    margin: 0 0 1rem;
+    font-size: 4rem;
+    color: var(--color-primary-light);
+}

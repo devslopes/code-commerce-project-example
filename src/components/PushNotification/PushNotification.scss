@@ -1,0 +1,26 @@
+.push-notification {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 0 .3rem;
+    padding: 1rem;
+    background-color: var(--color-danger-light);
+    font-size: .8rem;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+
+    i {
+        padding-right: 1rem;
+        font-size: 2rem;
+        color: var(--color-black);
+    }
+
+    .message {
+        margin-right: 3rem;
+    }
+
+    a {
+        position: absolute;
+        right: .3rem;
+    }
+}

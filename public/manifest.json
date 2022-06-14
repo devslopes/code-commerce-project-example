@@ -1,0 +1,9 @@
+{
+    "short_name": "Code Commerce",
+    "name": "Closed Source Coding Resources for Developers",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#F00",
+    "background_color": "#EFEFEF"
+  }
+  
